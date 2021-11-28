@@ -51,6 +51,20 @@ Additional Defenses:
 * SAST tools can help detect XXE in source code/Manual Code review.
 ```
 
+## 5. Broken Access Control
+> https://owasp.org/www-project-top-ten/2017/A5_2017-Broken_Access_Control
+
+```text
+* Except for public resources, deny by default.
+* Implement access control mechanisms once and re-use them throughout the application, including minimizing Cross-Origin Resource Sharing (CORS) usage.
+* Model access controls should enforce record ownership rather than accepting that the user can create, read, update, or delete any record.
+* Unique application business limit requirements should be enforced by domain models.
+* Disable web server directory listing and ensure file metadata (e.g., .git) and backup files are not present within web roots.
+* Log access control failures, alert admins when appropriate (e.g., repeated failures).
+* Rate limit API and controller access to minimize the harm from automated attack tooling.
+* Stateful session identifiers should be invalidated on the server after logout. Stateless JWT tokens should rather be short-lived so that the window of opportunity for an attacker is minimized. For longer lived JWTs it's highy recommended to follow the OAuth standards to revoke access.
+```
+
 ## CSRF
 > https://www.netsparker.com/blog/web-security/csrf-cross-site-request-forgery/
 
