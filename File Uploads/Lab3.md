@@ -19,3 +19,7 @@ Encode "/" --> "%2f"
 ![image](https://user-images.githubusercontent.com/60841283/150630938-e8607ea4-33e7-42e5-9478-b0e03bb868cb.png)
 
 ![image](https://user-images.githubusercontent.com/60841283/150630963-59924a8d-793d-4658-b562-e688812766e8.png)
+
+Also,
+
+![image](https://user-images.githubusercontent.com/60841283/150631012-a8c6169f-7638-4c86-bfd2-e492526848d8.png)
