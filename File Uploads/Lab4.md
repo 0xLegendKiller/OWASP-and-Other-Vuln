@@ -1,4 +1,4 @@
-#
+#  Web shell upload via extension blacklist bypass
 
 ## File Contents
 * php
