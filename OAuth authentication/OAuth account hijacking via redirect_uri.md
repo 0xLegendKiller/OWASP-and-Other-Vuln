@@ -6,6 +6,9 @@
 ```
 
 ## Auth FLow
+
+Login with Creds --> Logout ---> Login (no creds asked)
+
 ![image](https://user-images.githubusercontent.com/60841283/150680077-ce46a78a-8abf-4bf3-9886-d410174a7dd3.png)
 
 Redirect to Exploit via server
