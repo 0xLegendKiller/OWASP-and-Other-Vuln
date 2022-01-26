@@ -5,7 +5,7 @@ Solutions -->
 
 ![image](https://user-images.githubusercontent.com/60841283/151112457-622654ab-b924-4df9-9623-94a5ef2337ee.png)
 
-1st Search Box:
+### 1st Search Box:
 
 Enter : `test.txt`
 
@@ -68,7 +68,7 @@ mayank_pandey01:x:1004:1005::/var/www/html/labs/mayank_pandey01:/usr/sbin/nologi
 </div>
 ```
 
-2nd Search box 
+### 2nd Search box 
 
 Visit : `https://hackxpert.com/labs/LFI/endPoint-2.php?field2_name=/etc/passwd%00&submit=submit&parent_id=0`
 
