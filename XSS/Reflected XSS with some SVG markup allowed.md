@@ -20,3 +20,12 @@ We see some Tags don't cause this error such as svg, animatetransform, image, ti
 
 * Update search payload <svg><animatetransform+$$=1> ,copy Events to Clipboard and paste in payload set.
   
+![image](https://user-images.githubusercontent.com/60841283/153719984-70f7b2ee-6e44-4f5f-8e0c-8ab7880ca4a5.png)
+
+We get 200 Status code only for event onbegin
+
+## Trigger XSS
+
+`https://ac601f8a1f21b805c064d4b1006f0010.web-security-academy.net/?search=<svg><animatetransform+onbegin=alert()>`
+ 
+![image](https://user-images.githubusercontent.com/60841283/153720091-df043e3b-f1b6-4e24-ac4c-50483c6b9a31.png)
