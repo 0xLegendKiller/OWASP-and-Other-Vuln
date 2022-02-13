@@ -1,4 +1,6 @@
 # DOM XSS using web messages
+Lab URL :- 
+`https://portswigger.net/web-security/dom-based/controlling-the-web-message-source/lab-dom-xss-using-web-messages`
 
 ![image](https://user-images.githubusercontent.com/60841283/153745543-5af9d7cb-9b39-479e-ba55-e04057a96b46.png)
 
