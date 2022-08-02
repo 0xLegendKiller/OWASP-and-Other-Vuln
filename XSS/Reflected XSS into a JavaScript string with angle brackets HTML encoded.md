@@ -15,3 +15,5 @@ Using `'` symbol :-
 Payload in Burp :- `lol'-alert("XSS")-'`
 
 ![image](https://user-images.githubusercontent.com/60841283/182375262-6786ebb7-457f-4252-b3d3-878308472912.png)
+
+![image](https://user-images.githubusercontent.com/60841283/182386281-b8ec4084-ecf1-4468-a7cf-9739bf53ad73.png)
